@@ -67,8 +67,12 @@ html, body {
   display: flex;
   align-items: center;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 700;
   justify-content: center;
+}
+
+.key:hover {
+  cursor: pointer;
 }
 
 .page2 {
@@ -195,16 +199,22 @@ html, body {
   font-weight: 500;
  }
 
- .explore {
-   background-color: rgb(203, 47, 47);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-weight: 600;
-   width: 14rem;
-   height: 3rem;
-   margin-top: 3rem;
+.explore {
+  background-color: rgb(203, 47, 47);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  width: 14rem;
+  height: 3rem;
+  margin-top: 3rem;
  }
+
+ .explore:hover {
+  cursor: pointer;
+ }
+  
+
  
 
 
