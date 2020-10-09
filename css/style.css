@@ -8,10 +8,7 @@
 html, body {
   background: #ffffff;
   background-repeat: no-repeat;
-}
-
-.page1 {
-  position: relative;
+  overflow-x: hidden;
 }
 
 .nav-bar{
@@ -53,5 +50,31 @@ html, body {
   padding-left: 3rem;
   color: #787878;
 }
+
+.watch {
+  position: relative;
+  right: -25rem;
+  width: 50rem;
+  height: 50rem;
+}
+
+.key {
+  background-color: red;
+  width: 14rem;
+  height: 3rem;
+  margin-left: 19rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.page2 {
+  border-top: #787878 1px solid;
+  height: 100vh;
+}
+ 
 
 
