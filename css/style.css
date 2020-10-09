@@ -73,7 +73,7 @@ html, body {
 
 .page2 {
   border-top: #787878 1px solid;
-  height: 100vh;
+  margin-bottom: 2rem;
 }
 
 .runs {
@@ -105,6 +105,106 @@ html, body {
   height: 5px;
   background-color: #787878;
 }
+
+.dash {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.line {
+  width: 3rem;
+  height: 3px;
+  background-color: rgb(203, 47, 47);
+  transition: 0.5s ease-out;
+}
+
+.learn {
+  color: rgb(203, 47, 47);
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.dash:hover {
+  cursor: pointer;
+}
+
+.dash:hover .line {
+  cursor: pointer;
+  width: 4rem;
+}
+
+.nike {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.preview {
+  height: 80vh;
+  width: 25vw;
+}
+
+.light {
+  font-size: 65px;
+}
+
+.made {
+  border-left: #787878 2px solid;
+  padding-left: 2rem;
+  margin-top: 3rem;
+}
+
+.buy {
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 3rem;
+  background-color: rgb(203, 47, 47);
+}
+
+.buy:hover {
+  cursor: pointer;  
+}
+
+.page3 {
+  background-image: url(../media/runners.jpg);
+  background-size: cover;
+  height: 140vh;
+  width: 100vw;
+  color: #ffffff;
+}
+ .control {
+   padding-top: 35rem;
+   padding-left: 65rem;
+ }
+
+.take {
+  font-size: 50px;
+}
+
+ .gps {
+  border-left: #ffffff 2px solid;
+  padding-left: 2rem;
+  margin-top: 3rem;
+  font-weight: 500;
+ }
+
+ .explore {
+   background-color: rgb(203, 47, 47);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 600;
+   width: 14rem;
+   height: 3rem;
+   margin-top: 3rem;
+ }
  
 
 
