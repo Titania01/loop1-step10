@@ -37,12 +37,21 @@ html, body {
 .freedom {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .call {
-  margin-left: 18rem;
-  padding-bottom: 10rem;
+  margin-left: 19rem;
+  margin-top: 10rem;
+  font-size: 50px;
+}
+
+.word {
+  margin-left: 19rem;
+  margin-top: 4rem;
+  border-left: #4a4a4a 2px solid;
+  padding-left: 3rem;
+  color: #787878;
 }
 
 
