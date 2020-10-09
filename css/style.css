@@ -75,6 +75,36 @@ html, body {
   border-top: #787878 1px solid;
   height: 100vh;
 }
+
+.runs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;
+  color: #4a4a4a;
+}
+
+.run1 {
+  font-size: 18px;
+}
+
+.good {
+  padding-top: 3rem;
+}
+
+.dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 2rem;
+  margin-top: 1rem;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: #787878;
+}
  
 
 
